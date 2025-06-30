@@ -26,4 +26,4 @@ jobs:
           mv main.pdf cv.pdf
           git add cv.pdf
           git commit -m "Add generated PDF"
-          git push -f "https://x-access-token:${{secrets.GH_TOKEN}}@github.com/redsuperbat/cv.git pdf"
+          git push -f "https://x-access-token:${{secrets.GH_TOKEN}}@github.com/redsuperbat/cv.git" pdf
