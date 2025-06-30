@@ -1,0 +1,29 @@
+name: Build CV
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v4
+
+      - name: Setup latex compiler
+        uses: wtfjoke/setup-tectonic@v3
+
+      - name: Compile CV
+        run: tectonic main.tex
+
+      - name: Push PDF to branch
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git fetch
+          git checkout pdf || git checkout --orphan pdf
+          git rm -rf .
+          mv main.pdf cv.pdf
+          git add cv.pdf
+          git commit -m "Add generated PDF"
+          git push -f origin pdf
