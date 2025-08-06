@@ -13,11 +13,11 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v4
 
-      - name: Setup latex compiler
-        uses: wtfjoke/setup-tectonic@v3
+      - name: Setup typst
+        uses: typst-community/setup-typst@v4
 
       - name: Compile CV
-        run: tectonic main.tex
+        run: typst compile main.typ cv.pdf
 
       - name: Push PDF to branch
         run: |
@@ -26,7 +26,6 @@ jobs:
           git fetch
           git checkout pdf || git checkout --orphan pdf
           git rm -rf .
-          mv main.pdf cv.pdf
           git add cv.pdf
           git commit -m "Add generated PDF"
           git push -f "https://x-access-token:${{secrets.GH_TOKEN}}@github.com/redsuperbat/cv.git" pdf
