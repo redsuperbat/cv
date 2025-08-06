@@ -28,18 +28,18 @@
 )
 
 /*
-* Lines that start with == are formatted into section headings
-* You can use the specific formatting functions if needed
-* The following formatting functions are listed below
-* #edu(dates: "", degree: "", gpa: "", institution: "", location: "", consistent: false)
-* #work(company: "", dates: "", location: "", title: "")
-* #project(dates: "", name: "", role: "", url: "")
-* certificates(name: "", issuer: "", url: "", date: "")
-* #extracurriculars(activity: "", dates: "")
-* There are also the following generic functions that don't apply any formatting
-* #generic-two-by-two(top-left: "", top-right: "", bottom-left: "", bottom-right: "")
-* #generic-one-by-two(left: "", right: "")
-*/
+ * Lines that start with == are formatted into section headings
+ * You can use the specific formatting functions if needed
+ * The following formatting functions are listed below
+ * #edu(dates: "", degree: "", gpa: "", institution: "", location: "", consistent: false)
+ * #work(company: "", dates: "", location: "", title: "")
+ * #project(dates: "", name: "", role: "", url: "")
+ * certificates(name: "", issuer: "", url: "", date: "")
+ * #extracurriculars(activity: "", dates: "")
+ * There are also the following generic functions that don't apply any formatting
+ * #generic-two-by-two(top-left: "", top-right: "", bottom-left: "", bottom-right: "")
+ * #generic-one-by-two(left: "", right: "")
+ */
 == Work Experience
 
 #work(
@@ -56,7 +56,7 @@
   company: "Mentimeter AB",
   dates: dates-helper(start-date: "Jan. 2025", end-date: "Aug. 2025"),
 )
-- Maintained and developed enterprise features in the Mentimeter platform 
+- Maintained and developed enterprise features in the Mentimeter platform
 - Played a big role in translating the Mentimeter platform, providing guidance and developed AI tools for other developers to increase their efficiency
 
 #work(
@@ -87,7 +87,7 @@
 #work(
   title: "Software Engineer",
   location: "Uppsala, Sweden",
-  company: "Sun Labs Nordic AB",
+  company: "Sun Labs Nordic AB (Devcomp AB)",
   dates: dates-helper(start-date: "July. 2020", end-date: "Mar. 2021"),
 )
 - Led the migration of a React web application to a React Native mobile app, enabling access to native features like the camera and notifications.
@@ -96,11 +96,10 @@
 #work(
   title: "Software Engineer",
   location: "Stockholm, Sweden",
-  company: "Wines We Want SARL",
+  company: "Wines We Want SARL (Devcomp AB)",
   dates: dates-helper(start-date: "Apr. 2020", end-date: "Dec. 2020"),
 )
-- Migrated the web shop from a monolithic PHP backend to a modular frontend/backend architecture.
-- Developed a Vue.js single-page application integrated with a RESTfu
+- Migrated a web shop from a monolithic PHP backend to a modular frontend/backend architecture.
 
 
 #work(
@@ -136,16 +135,10 @@
 
 == Projects
 
-#project(
-  name: "Neon Programming language",
-  url: "github.com/redsuperbat/neon",
-)
+#project(name: "Neon Programming language", url: "github.com/redsuperbat/neon")
 
 Expression based language written in rust
 
-#project(
-  name: "Rustproof",
-  url: "github.com/redsuperbat/rustproof",
-)
+#project(name: "Rustproof", url: "github.com/redsuperbat/rustproof")
 
 Spellchecker utilizing the language server protocol to spell-check code
