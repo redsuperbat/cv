@@ -55,7 +55,7 @@
 #work(
   title: "Software Engineer",
   location: "Stockholm, Sweden",
-  company: "Normain",
+  company: "Normain AB",
   dates: dates-helper(start-date: "Aug. 2025", end-date: "Current"),
 )
 - Scaling customers expertise with AI
