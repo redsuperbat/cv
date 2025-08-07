@@ -24,8 +24,9 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git fetch
-          git checkout pdf
+          git checkout pdf || git checkout --orphan pdf
+          mv main.pdf cv.pdf
           git rm -rf .
-          git add main.pdf
+          git add cv.pdf
           git commit -m "Add generated PDF"
           git push -f "https://x-access-token:${{secrets.GH_TOKEN}}@github.com/redsuperbat/cv.git" pdf
