@@ -40,6 +40,16 @@
  * #generic-two-by-two(top-left: "", top-right: "", bottom-left: "", bottom-right: "")
  * #generic-one-by-two(left: "", right: "")
  */
+
+== Education
+
+#edu(
+  institution: "Uppsala University",
+  location: "Uppsala",
+  dates: dates-helper(start-date: "Aug 2015", end-date: "July. 2021"),
+  degree: "Masters in engineering, IT sociotechnical systems",
+)
+
 == Work Experience
 
 #work(
@@ -120,14 +130,8 @@
 - Upgraded the C360 system by migrating to the latest Angular version and integrating with a Java Spring Boot API.
 - Recognized for strong collaboration, proactive mindset, and effective knowledge sharing across teams.
 
-== Education
 
-#edu(
-  institution: "Uppsala University",
-  location: "Uppsala",
-  dates: dates-helper(start-date: "Aug 2015", end-date: "July. 2021"),
-  degree: "Masters in engineering, IT sociotechnical systems",
-)
+#pagebreak()
 
 == Skills
 - *Programming Languages*: JavaScript, Typescript, Kotlin, HTML/CSS, Java, Flutter, Dart, Terraform, Rust, Ruby
