@@ -17,15 +17,15 @@ jobs:
         uses: typst-community/setup-typst@v4
 
       - name: Compile CV
-        run: typst compile main.typ cv.pdf
+        run: typst compile main.typ
 
       - name: Push PDF to branch
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git fetch
-          git checkout pdf || git checkout --orphan pdf
+          git checkout pdf
           git rm -rf .
-          git add cv.pdf
+          git add main.pdf
           git commit -m "Add generated PDF"
           git push -f "https://x-access-token:${{secrets.GH_TOKEN}}@github.com/redsuperbat/cv.git" pdf
