@@ -53,12 +53,12 @@
 == Work Experience
 
 #work(
-  title: "Software Engineer",
+  title: "Founding Engineer",
   location: "Stockholm, Sweden",
   company: "Normain AB",
   dates: dates-helper(start-date: "Aug. 2025", end-date: "Current"),
 )
-- Scaling customers expertise with AI
+- Inventing Extractional AI
 
 #work(
   title: "Software Engineer",
