@@ -7,7 +7,7 @@
 #let github = "github.com/redsuperbat"
 #let linkedin = "linkedin.com/in/maxnetterberg"
 #let phone = "+46700 44 15 66"
-#let personal-site = "max.netterberg.com"
+#let personal-site = "max.netterberg.io"
 
 #show: resume.with(
   author: name,
