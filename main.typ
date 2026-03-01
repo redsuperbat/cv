@@ -58,7 +58,10 @@
   company: "Normain AB",
   dates: dates-helper(start-date: "Aug. 2025", end-date: "Current"),
 )
-- Inventing Extractional AI
+- Designed and implemented autonomous agent systems for intelligent document processing
+- Built a document processing pipeline for automated data extraction and analysis
+- Configured and managed cloud infrastructure on Azure using Terraform, Kubernetes, PostgreSQL, and Redis
+- Developed backend services in TypeScript powering the core platform
 
 #work(
   title: "Software Engineer",
