@@ -2,7 +2,7 @@
 
 // Put your personal information here, replacing mine
 #let name = "Max Netterberg"
-#let location = "Stockholm"
+#let location = "Frejgatan 34, 11326 Stockholm"
 #let email = "max.netterberg@gmail.com"
 #let github = "github.com/redsuperbat"
 #let linkedin = "linkedin.com/in/maxnetterberg"
