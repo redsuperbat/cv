@@ -134,8 +134,9 @@
 - Upgraded the C360 system by migrating to the latest Angular version and integrating with a Java Spring Boot API.
 - Recognized for strong collaboration, proactive mindset, and effective knowledge sharing across teams.
 
-
-#pagebreak()
+#v(1em)
+#line(length: 100%, stroke: 0.2pt)
+#v(1em)
 
 == Skills
 - *Programming Languages*: JavaScript, Typescript, Kotlin, HTML/CSS, Java, Flutter, Dart, Terraform, Rust, Ruby
