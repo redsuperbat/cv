@@ -62,6 +62,7 @@
 - Architected and implemented a customer lockbox architecture for a multi tenant platform, supporting logical or physical separation between customers
 - Built a document processing pipeline for automated data extraction and analysis
 - Configured and managed cloud infrastructure on Azure using Terraform, Kubernetes, PostgreSQL, and Redis
+- Rebuilt the CI/CD pipeline to deploy automatically to production, increasing weekly production deploys by over 450%
 - Developed backend services in TypeScript powering the core platform
 
 #work(
